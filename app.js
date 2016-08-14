@@ -39,10 +39,10 @@ webpackJsonp([0],{
 	const core_1 = __webpack_require__(5);
 	const character_1 = __webpack_require__(350);
 	const character_component_1 = __webpack_require__(353);
-	const generator_service_1 = __webpack_require__(376);
-	const utils_1 = __webpack_require__(377);
-	__webpack_require__(381);
-	__webpack_require__(385);
+	const generator_service_1 = __webpack_require__(377);
+	const utils_1 = __webpack_require__(378);
+	__webpack_require__(382);
+	__webpack_require__(386);
 	let AppComponent = class AppComponent {
 	    constructor(charGenerator) {
 	        this.selectedSpecies = "";
@@ -215,11 +215,11 @@ webpackJsonp([0],{
 	const infoblock_component_1 = __webpack_require__(354);
 	const attribute_block_component_1 = __webpack_require__(355);
 	const skillblock_component_1 = __webpack_require__(357);
-	const talentblock_component_1 = __webpack_require__(366);
-	const personalityblock_component_1 = __webpack_require__(369);
-	const weaponsblock_component_1 = __webpack_require__(371);
-	const armour_component_1 = __webpack_require__(373);
-	const equipmentblock_component_1 = __webpack_require__(374);
+	const talentblock_component_1 = __webpack_require__(367);
+	const personalityblock_component_1 = __webpack_require__(370);
+	const weaponsblock_component_1 = __webpack_require__(372);
+	const armour_component_1 = __webpack_require__(374);
+	const equipmentblock_component_1 = __webpack_require__(375);
 	let CharacterComponent = class CharacterComponent {
 	};
 	__decorate([
@@ -410,7 +410,7 @@ webpackJsonp([0],{
 	 */
 	const core_1 = __webpack_require__(5);
 	const _1 = __webpack_require__(358);
-	const skill_component_1 = __webpack_require__(365);
+	const skill_component_1 = __webpack_require__(366);
 	let SkillBlockComponent = class SkillBlockComponent {
 	};
 	__decorate([
@@ -495,6 +495,7 @@ webpackJsonp([0],{
 	__export(__webpack_require__(362));
 	__export(__webpack_require__(363));
 	__export(__webpack_require__(364));
+	__export(__webpack_require__(365));
 
 
 /***/ },
@@ -584,6 +585,20 @@ webpackJsonp([0],{
 /***/ },
 
 /***/ 365:
+/***/ function(module, exports) {
+
+	"use strict";
+	/**
+	 * Created by poiso_000 on 14/08/2016.
+	 */
+	class WeaponLoadout {
+	}
+	exports.WeaponLoadout = WeaponLoadout;
+
+
+/***/ },
+
+/***/ 366:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -625,7 +640,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 366:
+/***/ 367:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -640,7 +655,7 @@ webpackJsonp([0],{
 	};
 	const core_1 = __webpack_require__(5);
 	const character_1 = __webpack_require__(350);
-	const talent_component_1 = __webpack_require__(367);
+	const talent_component_1 = __webpack_require__(368);
 	/**
 	 * Created by poiso_000 on 07/08/2016.
 	 */
@@ -668,7 +683,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 367:
+/***/ 368:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -682,7 +697,7 @@ webpackJsonp([0],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	const core_1 = __webpack_require__(5);
-	const talent_1 = __webpack_require__(368);
+	const talent_1 = __webpack_require__(369);
 	/**
 	 * Created by poiso_000 on 07/08/2016.
 	 */
@@ -709,7 +724,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 368:
+/***/ 369:
 /***/ function(module, exports) {
 
 	/**
@@ -723,7 +738,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 369:
+/***/ 370:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -737,7 +752,7 @@ webpackJsonp([0],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	const core_1 = __webpack_require__(5);
-	const personality_component_1 = __webpack_require__(370);
+	const personality_component_1 = __webpack_require__(371);
 	const character_1 = __webpack_require__(350);
 	/**
 	 * Created by poiso_000 on 07/08/2016.
@@ -766,7 +781,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 370:
+/***/ 371:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -804,7 +819,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 371:
+/***/ 372:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -819,7 +834,7 @@ webpackJsonp([0],{
 	};
 	const core_1 = __webpack_require__(5);
 	const model_1 = __webpack_require__(358);
-	const weapon_component_1 = __webpack_require__(372);
+	const weapon_component_1 = __webpack_require__(373);
 	/**
 	 * Created by poiso_000 on 10/08/2016.
 	 */
@@ -847,7 +862,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 372:
+/***/ 373:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -900,7 +915,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 373:
+/***/ 374:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -953,7 +968,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 374:
+/***/ 375:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -968,7 +983,7 @@ webpackJsonp([0],{
 	};
 	const core_1 = __webpack_require__(5);
 	const character_1 = __webpack_require__(350);
-	const equipment_component_1 = __webpack_require__(375);
+	const equipment_component_1 = __webpack_require__(376);
 	/**
 	 * Created by poiso_000 on 10/08/2016.
 	 */
@@ -996,7 +1011,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 375:
+/***/ 376:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1037,7 +1052,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 376:
+/***/ 377:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -1056,18 +1071,20 @@ webpackJsonp([0],{
 	const http_1 = __webpack_require__(328);
 	const core_1 = __webpack_require__(5);
 	const Observable_1 = __webpack_require__(38);
-	const utils_1 = __webpack_require__(377);
+	const utils_1 = __webpack_require__(378);
 	const model_1 = __webpack_require__(358);
 	let CharacterGenerator = class CharacterGenerator {
 	    constructor(http) {
 	        this.http = http;
-	        this.manifest = { "species": [], "archetypes": [] };
+	        this.manifest = { "species": [], "archetypes": [], "weaponLoadouts": [] };
 	        this.loaded = false;
 	        this.species = {};
 	        this.speciesLoaded = 0;
 	        this.archetypes = {};
 	        this.archetypesLoaded = 0;
 	        this.personalities = {};
+	        this.weaponLoadouts = {};
+	        this.weaponLoadoutsLoaded = 0;
 	    }
 	    /**
 	     * Generate a character synchronously
@@ -1100,7 +1117,7 @@ webpackJsonp([0],{
 	        utils_1.shuffle(this.personalities.traits);
 	        char.personalityTraits = char.personalityTraits.concat(this.personalities.traits.slice(0, 3));
 	        char.talents = this.selectTalents(archetypeDef);
-	        char.weapons = this.selectWeapons(archetypeDef);
+	        char.weapons = this.selectWeapons(archetypeDef, char);
 	        char.armour = this.selectArmour(archetypeDef);
 	        char.woundThreshold = speciesDef.baseHp + char.attributes.brawn;
 	        char.equipment = this.selectEquipment(archetypeDef);
@@ -1121,13 +1138,42 @@ webpackJsonp([0],{
 	        utils_1.shuffle(archetype.skillSets);
 	        return archetype.skillSets.slice(0, si);
 	    }
-	    selectWeapons(archetype) {
+	    selectWeapons(archetype, character) {
+	        var weaponLoadouts = archetype.weaponLoadouts.map(x => this.weaponLoadouts[x]);
+	        let maxSkill = 0;
+	        let selectedLoadout = utils_1.getRandomElement(weaponLoadouts);
+	        for (let s of weaponLoadouts) {
+	            let skillMagnitude = character.skills[s.primarySkill];
+	            if (skillMagnitude > maxSkill) {
+	                selectedLoadout = s;
+	                maxSkill = skillMagnitude;
+	            }
+	        }
+	        //Clone the list so we don't glob the base
+	        let selectedWeapons = selectedLoadout.baseLoadout.slice(0, selectedLoadout.baseLoadout.length);
+	        let subs = selectedLoadout.substitutions;
+	        for (let i = 0; i < selectedWeapons.length; i++) {
+	            if (utils_1.getRandomArbitrary(0, 1)) {
+	                //Flip a coin to see if we'll substitute
+	                continue;
+	            }
+	            let consider = selectedWeapons[i];
+	            let validSubs = subs[consider.name];
+	            if (validSubs && validSubs.length > 0) {
+	                //Swap in the sub in place
+	                selectedWeapons[i] = utils_1.getRandomElement(validSubs);
+	            }
+	        }
 	        let min = archetype.minWeapons;
 	        let max = archetype.maxWeapons;
 	        let si = utils_1.getRandomArbitrary(min, max);
-	        //Flicks the array around in place, but should be ok
-	        utils_1.shuffle(archetype.weapons);
-	        return archetype.weapons.slice(0, si);
+	        if (si && selectedLoadout.additionalOptions.length) {
+	            let optional = selectedLoadout.additionalOptions;
+	            while (si--) {
+	                selectedWeapons.push(utils_1.getRandomElement(optional));
+	            }
+	        }
+	        return selectedWeapons;
 	    }
 	    selectEquipment(archetype) {
 	        let min = archetype.minEquipment;
@@ -1148,11 +1194,17 @@ webpackJsonp([0],{
 	    setLoadState() {
 	        this.loaded =
 	            this.speciesLoaded >= this.manifest.species.length
-	                && this.archetypesLoaded >= this.manifest.archetypes.length;
+	                && this.archetypesLoaded >= this.manifest.archetypes.length
+	                && this.weaponLoadoutsLoaded >= this.manifest.weaponLoadouts.length;
 	    }
 	    extractArchetypeData(body) {
 	        this.archetypes[body.name] = body;
 	        this.archetypesLoaded++;
+	        this.setLoadState();
+	    }
+	    extractLoadoutData(body) {
+	        this.weaponLoadouts[body.name] = body;
+	        this.weaponLoadoutsLoaded++;
 	        this.setLoadState();
 	    }
 	    getJson(res) {
@@ -1178,8 +1230,16 @@ webpackJsonp([0],{
 	                    .catch(this.handleError)
 	                    .subscribe(a => this.extractArchetypeData(a));
 	            }
+	            for (let a of body.weaponLoadouts) {
+	                let url = 'weapons/' + a + '.json';
+	                this.http.get(url)
+	                    .map(this.getJson)
+	                    .catch(this.handleError)
+	                    .subscribe(a => this.extractLoadoutData(a));
+	            }
 	            this.manifest.species = body.species;
 	            this.manifest.archetypes = body.archetypes;
+	            this.manifest.weaponLoadouts = body.weaponLoadouts;
 	        });
 	        let personalityUrl = 'personalities.json';
 	        this.http.get(personalityUrl)
@@ -1203,7 +1263,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 377:
+/***/ 378:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1213,14 +1273,14 @@ webpackJsonp([0],{
 	/**
 	 * Created by poiso_000 on 07/08/2016.
 	 */
-	__export(__webpack_require__(378));
 	__export(__webpack_require__(379));
 	__export(__webpack_require__(380));
+	__export(__webpack_require__(381));
 
 
 /***/ },
 
-/***/ 378:
+/***/ 379:
 /***/ function(module, exports) {
 
 	/**
@@ -1239,7 +1299,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 379:
+/***/ 380:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -1254,7 +1314,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 380:
+/***/ 381:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -1275,14 +1335,14 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 381:
+/***/ 382:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 385:
+/***/ 386:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
